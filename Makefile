@@ -2,6 +2,7 @@ PROJECT:= bustiket
 
 #TOOLCHAIN_PREFIX:= mingw32
 
+
 CFLAGS:= -I`pwd`/ -I./include -I./src/ -Wall 
 CFLAGS+= -std=c99
 #-Werror
